@@ -575,6 +575,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
+  background-color:white;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1174,7 +1175,7 @@ section {
 
 
  /* Style the header */
- .header-readio-player {
+.header-readio-player {
   padding: 10px 16px;
   z-index: 100000;
   position: fixed;
@@ -1183,20 +1184,39 @@ section {
   
 }
 
+.logo-principal {
+  width: 70%;
+  margin-left: -70px;
+}
+
 @media (max-width: 575.98px) { 
   .header-readio-player {
     width: 80%;
     height: 40px;
   }
+
+  .logo-principal {
+
+    width: 100% !important;
+    margin-left: 0px;
+  }
+  
 }
 
 
 @media (max-width: 767.98px) { 
   
   .header-readio-player {
-  width: 80%;
-  height: 40px;
-} }
+    width: 80%;
+    height: 40px; 
+  } 
+  .logo-principal {
+
+    width: 100% !important;
+    margin-left: 0px;
+  }
+
+}
 
 
 @media (max-width: 991.98px) { 
@@ -1204,6 +1224,12 @@ section {
   .header-readio-player {
     width: 80%;
     height: 40px;
+  }
+
+  .logo-principal {
+    width: 100% !important;
+    margin-left: 0px;
+
   }
  }
 
